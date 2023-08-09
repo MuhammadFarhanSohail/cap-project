@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './Footer.css'
 function Footer() {
   return (
-    <footer>
-      {/* Add your footer content here */}
+    <footer className='footer'>
+      <p>&copy; 2023 Little Lemon Restaurant. All rights reserved.</p>
     </footer>
   );
 }

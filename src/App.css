@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  gap: 10px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
 }
 
 .App-logo {
