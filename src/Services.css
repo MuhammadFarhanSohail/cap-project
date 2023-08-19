@@ -1,0 +1,30 @@
+/* Services.css */
+
+.services-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .services-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .services-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .services-container li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  
