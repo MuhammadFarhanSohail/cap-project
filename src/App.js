@@ -7,6 +7,7 @@ import Main from './Main';
 import Footer from './Footer';
 import About from './About';
 import Services from './Services';
+import Bookingform from './Bookingform';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Main/>} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/bookingform" element={<Bookingform/>} />
         
       </Routes>
       <Footer />
